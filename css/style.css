@@ -1,2 +1,41 @@
-body{
+.cell{
+	border: 2px solid blue;
+	border-color: #110E7E;
+	display: inline-block;
+	width: 75px;
+	height: 75px;
+	margin-top: 4px;
+	margin-right: 3px;
+	background-color: #F3F3FF;
+	cursor: pointer;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.cell:hover{
+	background-color: #C8C8DC;
+}
+
+#gamefield{
+	margin-top: 70px;
+}
+
+#score{
+	text-align: center;
+	font-size: 200%;
+	margin-top: 50px;
+}
+
+.cross, .zero{
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.cross{
+	background-image: url('../img/cross.png');
+}
+
+.zero{
+	background-image: url('../img/zero.png');
 }
